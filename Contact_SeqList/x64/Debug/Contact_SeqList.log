@@ -1,0 +1,6 @@
+﻿  Contact.c
+D:\CODE\bit112_learn_code\learn_code\Contact_SeqList\Contact.c(46,18): warning C4013: “FindByName”未定义；假设外部返回 int
+D:\CODE\bit112_learn_code\learn_code\Contact_SeqList\Contact.c(90,7): warning C4013: “strcmp”未定义；假设外部返回 int
+  main.c
+  正在生成代码...
+  Contact_SeqList.vcxproj -> D:\CODE\bit112_learn_code\learn_code\Contact_SeqList\x64\Debug\Contact_SeqList.exe
