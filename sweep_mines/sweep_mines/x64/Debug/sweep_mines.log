@@ -1,0 +1,3 @@
+﻿  game.c
+E:\code\learn_CODE\sweep_mines\sweep_mines\game.c(73,19): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+  sweep_mines.vcxproj -> E:\code\learn_CODE\sweep_mines\x64\Debug\sweep_mines.exe
