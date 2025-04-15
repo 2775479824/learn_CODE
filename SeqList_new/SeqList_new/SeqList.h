@@ -45,3 +45,7 @@ void SLPopBack(SL* ps);
 void SLInsert(SL* ps, int pos, SLDataType x);
 //指定位置删除
 void SLErase(SL* ps, int pos);
+
+
+//查找
+int SLFind(SL* ps, SLDataType x);

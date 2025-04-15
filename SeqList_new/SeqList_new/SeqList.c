@@ -10,7 +10,11 @@ void SLInit(SL* ps)
 }
 
 void SLDestroy(SL* ps) {
-
+	if (ps->arr) {
+		free(ps->arr);
+	}
+	ps->arr = NULL;
+	ps->capacity = ps->size = 0;
 }
 
 void SLCheckCapacity(SL* ps)
@@ -116,4 +120,19 @@ void SLErase(SL* ps, int pos)
 		ps->arr[i] = ps->arr[i + 1];
 	}
 	ps->size--;
+}
+
+
+//Вщев
+int SLFind(SL* ps, SLDataType x)
+{
+
+	assert(ps);
+	for (int i = 0;i < ps->size;i++)
+	{
+		if (ps->arr[i] == x) {
+			return i;
+		}
+	}
+	return -1;
 }
