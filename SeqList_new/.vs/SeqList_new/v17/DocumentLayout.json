@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "SeqList_new\\SeqList.c",
               "ToolTip": "E:\\code\\learn_CODE\\SeqList_new\\SeqList_new\\SeqList.c",
               "RelativeToolTip": "SeqList_new\\SeqList.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-15T07:54:22.241Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "SeqList_new\\SeqList.h",
               "ToolTip": "E:\\code\\learn_CODE\\SeqList_new\\SeqList_new\\SeqList.h",
               "RelativeToolTip": "SeqList_new\\SeqList.h",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-15T07:54:00.959Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "SeqList_new\\test.c",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-15T07:53:38.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:53:38.591Z"
             }
           ]
         }
