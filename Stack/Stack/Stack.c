@@ -22,7 +22,7 @@ void STPush(ST* ps, STDataType x) {
 	if (ps->top == ps->capacity)
 	{
 		//À©ÈÝ
-		int newCapacity = 0 ? 4 : ps->capacity * 2;
+		int newCapacity = (ps->capacity == 0) ? 4 : ps->capacity * 2;
 		STDataType* tmp = (STDataType*)realloc(ps->val, newCapacity * sizeof(STDataType));
 		if (tmp == NULL)
 		{
@@ -50,7 +50,7 @@ STDataType STTop(ST* ps)
 	assert(ps);
 	assert(!STEmpty(ps));
 
-	return ps->val[ps->top];
+	return ps->val[ps->top--];
 }
 
 int STSize(ST* ps)
